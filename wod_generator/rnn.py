@@ -5,7 +5,7 @@ BSD License
 import numpy as np
 
 # data I/O
-data = open('/Users/albertoescarlate/Dropbox/Udacity/projects/wod_generator/data/wod.txt', 'r').read() # should be simple plain text file
+data = open('data/wod.txt', 'r').read() # should be simple plain text file
 chars = list(set(data))
 data_size, vocab_size = len(data), len(chars)
 print ('data has {:>3} characters {:>3} unique' .format(vocab_size, vocab_size)) # print progress            
